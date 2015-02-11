@@ -1,6 +1,6 @@
 {
   "name": "bad-line",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin for cute-stack that prints bad line for local source files",
   "main": "index.js",
   "scripts": {
