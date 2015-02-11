@@ -1,5 +1,13 @@
 function badLine(frame) {
-  var cute = require('cute-stack');
+
+  var cute;
+  try {
+    cute = require('cute-stack');
+  } catch (err) {
+    // running as plugin
+    cute = require('../../');
+  }
+
   var exists = require('fs').existsSync;
   var read = require('fs').readFileSync;
 

@@ -1,6 +1,6 @@
 {
   "name": "bad-line",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Plugin for cute-stack that prints bad line for local source files",
   "main": "index.js",
   "scripts": {
@@ -28,5 +28,5 @@
     "gt": "0.8.47",
     "pre-git": "0.1.1"
   },
-  "pre-commit": "npm version"
+  "pre-commit": ["npm test", "npm version"]
 }
