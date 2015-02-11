@@ -1,0 +1,31 @@
+{
+  "name": "bad-line",
+  "version": "0.0.1",
+  "description": "Plugin for cute-stack that prints bad line for local source files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bahmutov/bad-line.git"
+  },
+  "keywords": [
+    "stack",
+    "error",
+    "plugin",
+    "cute",
+    "cute-stack"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/bad-line/issues"
+  },
+  "homepage": "https://github.com/bahmutov/bad-line",
+  "devDependencies": {
+    "cute-stack": "1.0.2",
+    "pre-git": "0.1.1"
+  },
+  "pre-commit": "npm version"
+}
