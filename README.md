@@ -15,6 +15,12 @@
 Include as a plugin for [cute-stack][cute-stack]
 
 ```js
+require('cute-stack')(require('bad-line'));
+```
+
+or do it in several steps
+
+```js
 var cute = require('cute-stack');
 cute.ui.badLine = require('bad-line');
 cute('badLine');
